@@ -1,7 +1,9 @@
 engine_pi compiles in the src directory
 
 cmake .
+
 make
+
 sudo make install
 
 
