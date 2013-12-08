@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx version="1.1" creator="Route_pi by SaltyPaws" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:opencpn="http://www.opencpn.org">
+    <rte>
+        <name></name>
+        <extensions>
+            <opencpn:start>Datum</opencpn:start>
+            <opencpn:end>End of grid</opencpn:end>
+        </extensions>
+        <rtept lat="0.000000" lon="0.000000">
+            <name>Datum</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.016667" lon="0.000000">
+            <name>Sq (1) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.016667" lon="0.016667">
+            <name>Sq (1) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.016667" lon="0.016667">
+            <name>Sq (1) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.016667" lon="-0.016667">
+            <name>Sq (1) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.033333" lon="-0.016667">
+            <name>Sq (2) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.033333" lon="0.033333">
+            <name>Sq (2) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.033333" lon="0.033333">
+            <name>Sq (2) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.033333" lon="-0.033333">
+            <name>Sq (2) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.050000" lon="-0.033333">
+            <name>Sq (3) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.050000" lon="0.050000">
+            <name>Sq (3) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.050000" lon="0.050000">
+            <name>Sq (3) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.050000" lon="-0.050000">
+            <name>Sq (3) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.066667" lon="-0.050000">
+            <name>Sq (4) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.066667" lon="0.066667">
+            <name>Sq (4) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.066667" lon="0.066667">
+            <name>Sq (4) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.066667" lon="-0.066667">
+            <name>Sq (4) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.083333" lon="-0.066667">
+            <name>Sq (5) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.083333" lon="0.083333">
+            <name>Sq (5) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.083333" lon="0.083333">
+            <name>Sq (5) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.083333" lon="-0.083333">
+            <name>Sq (5) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.100000" lon="-0.083333">
+            <name>Sq (6) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.100000" lon="0.100000">
+            <name>Sq (6) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.100000" lon="0.100000">
+            <name>Sq (6) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.100000" lon="-0.100000">
+            <name>Sq (6) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.116667" lon="-0.100000">
+            <name>Sq (7) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.116667" lon="0.116667">
+            <name>Sq (7) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.116667" lon="0.116667">
+            <name>Sq (7) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.116667" lon="-0.116667">
+            <name>Sq (7) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.133333" lon="-0.116667">
+            <name>Sq (8) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.133333" lon="0.133334">
+            <name>Sq (8) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.133333" lon="0.133334">
+            <name>Sq (8) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.133333" lon="-0.133333">
+            <name>Sq (8) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.150000" lon="-0.133333">
+            <name>Sq (9) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.150000" lon="0.150001">
+            <name>Sq (9) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.150000" lon="0.150001">
+            <name>Sq (9) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.150000" lon="-0.150000">
+            <name>Sq (9) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.166667" lon="-0.150000">
+            <name>Sq (10) Pt(1)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="0.166667" lon="0.166668">
+            <name>Sq (10) Pt(2)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.166667" lon="0.166668">
+            <name>Sq (10) Pt(3)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+        <rtept lat="-0.166667" lon="-0.166667">
+            <name>Sq (10) Pt(4)</name>
+            <sym>diamond</sym>
+            <type>WPT</type>
+        </rtept>
+    </rte>
+</gpx>
