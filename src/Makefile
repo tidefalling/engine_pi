@@ -224,6 +224,30 @@ instrument.cpp.s:
 	$(MAKE) -f CMakeFiles/engine_pi.dir/build.make CMakeFiles/engine_pi.dir/instrument.cpp.s
 .PHONY : instrument.cpp.s
 
+nmea0183/atp.o: nmea0183/atp.cpp.o
+.PHONY : nmea0183/atp.o
+
+# target to build an object file
+nmea0183/atp.cpp.o:
+	$(MAKE) -f CMakeFiles/engine_pi.dir/build.make CMakeFiles/engine_pi.dir/nmea0183/atp.cpp.o
+.PHONY : nmea0183/atp.cpp.o
+
+nmea0183/atp.i: nmea0183/atp.cpp.i
+.PHONY : nmea0183/atp.i
+
+# target to preprocess a source file
+nmea0183/atp.cpp.i:
+	$(MAKE) -f CMakeFiles/engine_pi.dir/build.make CMakeFiles/engine_pi.dir/nmea0183/atp.cpp.i
+.PHONY : nmea0183/atp.cpp.i
+
+nmea0183/atp.s: nmea0183/atp.cpp.s
+.PHONY : nmea0183/atp.s
+
+# target to generate assembly for a file
+nmea0183/atp.cpp.s:
+	$(MAKE) -f CMakeFiles/engine_pi.dir/build.make CMakeFiles/engine_pi.dir/nmea0183/atp.cpp.s
+.PHONY : nmea0183/atp.cpp.s
+
 nmea0183/expid.o: nmea0183/expid.cpp.o
 .PHONY : nmea0183/expid.o
 
@@ -798,6 +822,9 @@ help:
 	@echo "... instrument.o"
 	@echo "... instrument.i"
 	@echo "... instrument.s"
+	@echo "... nmea0183/atp.o"
+	@echo "... nmea0183/atp.i"
+	@echo "... nmea0183/atp.s"
 	@echo "... nmea0183/expid.o"
 	@echo "... nmea0183/expid.i"
 	@echo "... nmea0183/expid.s"

@@ -305,6 +305,7 @@ EngineWindow::EngineWindow(wxWindow *pparent, wxWindowID id)
       mCog = 3.0;
       mVar = 4.0;
       mRsa = 5.0;
+      mAtp = 6.0;
      
 	itemGridSizer = new wxGridSizer( 2, 4, 0, 0 );
 	itemGridSizer->SetMinSize(270,150);
@@ -480,6 +481,7 @@ void EngineWindow::SetSentence(wxString &sentence)
       {
             if(m_NMEA0183.LastSentenceIDReceived == _T("RMC"))
             {
+                  //printf("got here\n");
                   if(m_NMEA0183.Parse())
                   {
                               if(m_NMEA0183.Rmc.IsDataValid == NTrue)
@@ -513,24 +515,40 @@ void EngineWindow::SetSentence(wxString &sentence)
                               }
                         }
                   }
-                  if( m_NMEA0183.LastSentenceIDReceived == _T("RSA") ) {
+             if( m_NMEA0183.LastSentenceIDReceived == _T("RSA") ) {
 					 
                               if( m_NMEA0183.Parse() ) 
                               {
-                                     if( m_NMEA0183.Rsa.IsStarboardDataValid == NTrue ) 
+                                   if( m_NMEA0183.Rsa.IsStarboardDataValid == NTrue ) 
                                      {
                                               mRsa =  m_NMEA0183.Rsa.Starboard;
                                      } 
-                                     else if( m_NMEA0183.Rsa.IsPortDataValid == NTrue ) 
+                                   else if( m_NMEA0183.Rsa.IsPortDataValid == NTrue ) 
                                      {
                                               mRsa = -m_NMEA0183.Rsa.Port;
                                      }
                                      bGoodData = true;
                               }
                   }
+                  
+              else if( m_NMEA0183.LastSentenceIDReceived == _T("ATP") ) {
+				  printf("got here ATP \n");
+				  
+                              if( m_NMEA0183.Parse() ) 
+                              {
+								  printf("got here Parse\n");
+                                     /*
+                                      double m_NMEA0183.Mtw.Temperature;
+                                       wxString m_NMEA0183.Mtw.UnitOfMeasurement;
+                                     */
+                                    //SendSentenceToAllInstruments( OCPN_DBP_STC_TMP, m_NMEA0183.Mtw.Temperature,
+                                    //m_NMEA0183.Mtw.UnitOfMeasurement );
+                                    mAtp = m_NMEA0183.Atp.Temperature;
+                                    bGoodData = true;
+                                }
 
-        }
-
+              }
+       }
       //    Got the data, now do something with it
 
       if(bGoodData)
@@ -576,6 +594,9 @@ void EngineWindow::OnPaint(wxPaintEvent& event)
                             
             rpm->SetData( OCPN_DBP_STC_SOG, mSog * 200,
                             _T("\u00B0") );   
+                            
+            alttemp->SetData( OCPN_DBP_STC_SOG,mAtp,
+                            _T("\u00B0") );  
             
     
 

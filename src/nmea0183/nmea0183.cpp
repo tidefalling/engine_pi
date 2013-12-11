@@ -87,6 +87,7 @@ NMEA0183::NMEA0183()
    response_table.Append( (RESPONSE *) &Gsv );
    response_table.Append( (RESPONSE *) &Gga );
  response_table.Append( (RESPONSE *) &Rsa );
+ response_table.Append( (RESPONSE *) &Atp );
 /*
 
    response_table.Add( (RESPONSE *) &Rot );
@@ -291,20 +292,22 @@ bool NMEA0183::Parse( void )
         while(node)
         {
            RESPONSE *resp = node->GetData();
-
+printf(*resp);
             comparison = mnemonic.Cmp( resp->Mnemonic );
-
+//printf("got here\n");
             if ( comparison == 0 )
             {
+                        printf("got past comparison\n");
                         response_p = (RESPONSE *) resp;
                         return_value = response_p->Parse( sentence );
-
+printf(" %d\n",return_value);
                         /*
                         ** Set your ErrorMessage
                         */
 
                         if ( return_value == TRUE )
                         {
+							printf("got past return value\n");
                            ErrorMessage = _T("No Error");
                            LastSentenceIDParsed = response_p->Mnemonic;
                            TalkerID = talker_id( sentence );

@@ -118,9 +118,11 @@ void DashboardInstrument_Dial::Draw(wxGCDC* bdc)
     int width, height;
     bdc->GetTextExtent( _T("000"), &width, &height, 0, 0, g_pFontLabel );
     m_cy = m_TitleHeight + 2;
-    m_cy += availableHeight / 2;
-    m_radius = availableHeight / 2;
-
+   // m_cy += availableHeight / 2;
+   // m_radius = availableHeight / 2;
+    m_radius = wxMin(availableHeight, size.x) / 2;
+    m_cy += m_radius;
+ 
 
     DrawLabels(bdc);
     DrawFrame(bdc);
@@ -375,7 +377,9 @@ void DashboardInstrument_Dial::DrawData(wxGCDC* dc, double value,
             case DIAL_POSITION_INSIDE:
             {
                   TextPoint.x = m_cx - (width / 2) - 1;
-                  TextPoint.y = (size.y * .75) - height;
+                  //TextPoint.y = (size.y * .75) - height;
+                  TextPoint.y = m_cy + (m_radius / 7.8) + height;
+
                   GetGlobalColor(_T("DASHL"), &cl);
                   int penwidth = size.x / 100;
                   wxPen* pen = wxThePenList->FindOrCreatePen( cl, penwidth, wxSOLID );

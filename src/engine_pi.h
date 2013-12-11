@@ -121,7 +121,7 @@ private:
       NMEA0183        m_NMEA0183;                 // Used to parse NMEA Sentences
 
       wxString          m_NMEASentence;
-      double            mLat, mLon, mSog, mCog, mVar, mRsa;
+      double            mLat, mLon, mSog, mCog, mVar, mRsa, mAtp;
     
      wxGridSizer*          itemGridSizer;
      

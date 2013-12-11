@@ -66,6 +66,12 @@
 #include "ALM.hpp"
 #include "APB.hpp"
 #include "ASD.hpp"
+*/
+#include "atp.hpp"
+
+/*
+
+
 #include "BEC.hpp"
 #include "BOD.hpp"
 #include "BWC.hpp"
@@ -158,6 +164,10 @@ class NMEA0183
       ALM Alm;
       APB Apb;
       ASD Asd;
+*/
+
+      ATP Atp;
+/*
       BEC Bec;
       BOD Bod;
       BWC Bwc;
